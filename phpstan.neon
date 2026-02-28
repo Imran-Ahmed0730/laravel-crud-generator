@@ -1,0 +1,13 @@
+includes:
+    - vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+    level: 6
+    paths:
+        - src
+    checkMissingIterableValueType: false
+    ignoreErrors:
+        # base_path() and config() are Laravel helpers unavailable at analyse time
+        - '#Function base_path\(\) not found#'
+        - '#Function config\(\) not found#'
+        - '#Function report\(\) not found#'

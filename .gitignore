@@ -1,0 +1,28 @@
+# Composer
+/vendor/
+composer.lock
+
+# PHP / IDE
+.phpunit.result.cache
+.phpunit.cache/
+*.cache
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Coverage
+/coverage/
+coverage.xml
+clover.xml
+
+# Build
+/build/
+*.phar
+
+# Environment
+.env
+.env.*
+!.env.example

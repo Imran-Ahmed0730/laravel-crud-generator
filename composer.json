@@ -1,0 +1,71 @@
+{
+    "name": "yourvendor/laravel-crud-generator",
+    "description": "Scaffold a complete Laravel CRUD resource (Model, Migration, Service, Requests, Rule, Controller, Views, Routes) from a single Artisan command.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "crud",
+        "generator",
+        "scaffold",
+        "artisan",
+        "code-generator",
+        "boilerplate"
+    ],
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "you@example.com",
+            "homepage": "https://github.com/yourvendor",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/yourvendor/laravel-crud-generator",
+    "support": {
+        "issues": "https://github.com/yourvendor/laravel-crud-generator/issues",
+        "source": "https://github.com/yourvendor/laravel-crud-generator"
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/console": "^10.0|^11.0",
+        "illuminate/filesystem": "^10.0|^11.0",
+        "illuminate/support": "^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.5|^11.0",
+        "laravel/pint": "^1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\CrudGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YourVendor\\CrudGenerator\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourVendor\\CrudGenerator\\CrudGeneratorServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "lint": "vendor/bin/pint --test",
+        "lint-fix": "vendor/bin/pint",
+        "analyse": "vendor/bin/phpstan analyse --level=8 src/"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
