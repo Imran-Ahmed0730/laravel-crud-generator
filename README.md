@@ -1,11 +1,11 @@
 # Laravel CRUD Generator
 
-[![Tests](https://github.com/yourvendor/laravel-crud-generator/actions/workflows/tests.yml/badge.svg)](https://github.com/yourvendor/laravel-crud-generator/actions/workflows/tests.yml)
-[![Code Style](https://github.com/yourvendor/laravel-crud-generator/actions/workflows/lint.yml/badge.svg)](https://github.com/yourvendor/laravel-crud-generator/actions/workflows/lint.yml)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/yourvendor/laravel-crud-generator.svg)](https://packagist.org/packages/yourvendor/laravel-crud-generator)
-[![Total Downloads](https://img.shields.io/packagist/dt/yourvendor/laravel-crud-generator.svg)](https://packagist.org/packages/yourvendor/laravel-crud-generator)
-[![PHP Version](https://img.shields.io/packagist/php-v/yourvendor/laravel-crud-generator.svg)](https://packagist.org/packages/yourvendor/laravel-crud-generator)
-[![License](https://img.shields.io/packagist/l/yourvendor/laravel-crud-generator.svg)](LICENSE)
+[![Tests](https://github.com/Imran-Ahmed0730/laravel-crud-generator/actions/workflows/tests.yml/badge.svg)](https://github.com/Imran-Ahmed0730/laravel-crud-generator/actions/workflows/tests.yml)
+[![Code Style](https://github.com/Imran-Ahmed0730/laravel-crud-generator/actions/workflows/lint.yml/badge.svg)](https://github.com/Imran-Ahmed0730/laravel-crud-generator/actions/workflows/lint.yml)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Imran-Ahmed0730/laravel-crud-generator.svg)](https://packagist.org/packages/Imran-Ahmed0730/laravel-crud-generator)
+[![Total Downloads](https://img.shields.io/packagist/dt/Imran-Ahmed0730/laravel-crud-generator.svg)](https://packagist.org/packages/Imran-Ahmed0730/laravel-crud-generator)
+[![PHP Version](https://img.shields.io/packagist/php-v/Imran-Ahmed0730/laravel-crud-generator.svg)](https://packagist.org/packages/Imran-Ahmed0730/laravel-crud-generator)
+[![License](https://img.shields.io/packagist/l/Imran-Ahmed0730/laravel-crud-generator.svg)](LICENSE)
 
 A Laravel package that scaffolds a **complete, production-ready CRUD resource** from a single Artisan command — with clean, strictly-typed, well-commented code that is ready to extend without rewriting.
 
@@ -63,7 +63,7 @@ routes/
 ## Installation
 
 ```bash
-composer require yourvendor/laravel-crud-generator --dev
+composer require Imran-Ahmed0730/laravel-crud-generator --dev
 ```
 
 The service provider is **auto-discovered** — no manual registration required.

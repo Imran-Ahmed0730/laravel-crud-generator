@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\CrudGenerator\Tests\Unit;
+namespace Imran-Ahmed0730\CrudGenerator\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use YourVendor\CrudGenerator\Support\FieldDefinition;
+use Imran-Ahmed0730\CrudGenerator\Support\FieldDefinition;
 
 /**
  * Tests for FieldDefinition value object:

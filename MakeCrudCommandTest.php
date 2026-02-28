@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\CrudGenerator\Tests\Feature;
+namespace Imran-Ahmed0730\CrudGenerator\Tests\Feature;
 
-use YourVendor\CrudGenerator\Tests\TestCase;
+use Imran-Ahmed0730\CrudGenerator\Tests\TestCase;
 
 /**
  * Feature tests for the make:crud Artisan command.

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\CrudGenerator\Tests\Unit;
+namespace Imran-Ahmed0730\CrudGenerator\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
-use YourVendor\CrudGenerator\Support\ValidationGuesser;
+use Imran-Ahmed0730\CrudGenerator\Support\ValidationGuesser;
 
 /**
  * Tests that ValidationGuesser produces correct default validation

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace YourVendor\CrudGenerator\Tests;
+namespace Imran-Ahmed0730\CrudGenerator\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use YourVendor\CrudGenerator\CrudGeneratorServiceProvider;
+use Imran-Ahmed0730\CrudGenerator\CrudGeneratorServiceProvider;
 
 /**
  * Base test case for the CRUD Generator package.

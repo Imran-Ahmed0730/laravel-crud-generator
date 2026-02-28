@@ -54,5 +54,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `CONTRIBUTING.md` guide
 - Issue and PR templates
 
-[Unreleased]: https://github.com/yourvendor/laravel-crud-generator/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/yourvendor/laravel-crud-generator/releases/tag/v1.0.0
+[Unreleased]: https://github.com/Imran-Ahmed0730/laravel-crud-generator/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/Imran-Ahmed0730/laravel-crud-generator/releases/tag/v1.0.0

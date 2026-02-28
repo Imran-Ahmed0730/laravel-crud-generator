@@ -1,5 +1,5 @@
 {
-    "name": "yourvendor/laravel-crud-generator",
+    "name": "Imran-Ahmed0730/laravel-crud-generator",
     "description": "Scaffold a complete Laravel CRUD resource (Model, Migration, Service, Requests, Rule, Controller, Views, Routes) from a single Artisan command.",
     "type": "library",
     "license": "MIT",
@@ -14,16 +14,16 @@
     ],
     "authors": [
         {
-            "name": "Your Name",
-            "email": "you@example.com",
-            "homepage": "https://github.com/yourvendor",
+            "name": "Imran Ahmed",
+            "email": "i.ahmed0730@gmail.com",
+            "homepage": "https://github.com/Imran-Ahmed0730",
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/yourvendor/laravel-crud-generator",
+    "homepage": "https://github.com/Imran-Ahmed0730/laravel-crud-generator",
     "support": {
-        "issues": "https://github.com/yourvendor/laravel-crud-generator/issues",
-        "source": "https://github.com/yourvendor/laravel-crud-generator"
+        "issues": "https://github.com/Imran-Ahmed0730/laravel-crud-generator/issues",
+        "source": "https://github.com/Imran-Ahmed0730/laravel-crud-generator"
     },
     "require": {
         "php": "^8.1",
@@ -38,18 +38,18 @@
     },
     "autoload": {
         "psr-4": {
-            "YourVendor\\CrudGenerator\\": "src/"
+            "Imran-Ahmed0730\\CrudGenerator\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "YourVendor\\CrudGenerator\\Tests\\": "tests/"
+            "Imran-Ahmed0730\\CrudGenerator\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "YourVendor\\CrudGenerator\\CrudGeneratorServiceProvider"
+                "Imran-Ahmed0730\\CrudGenerator\\CrudGeneratorServiceProvider"
             ]
         }
     },
